@@ -3,7 +3,7 @@ Sales analysis identifying growth drivers using Excel
 Atliq Hardware Sales Analysis
 Project Overview
 
-This project analyzes Atliq Hardware sales data from 2020–2021 to identify growth drivers, top-performing products, and key geographic markets. The objective was to generate data-driven insights to support strategic business decisions.
+AtliQ Hardware faced the challenge of extracting actionable insights from a massive dataset of ~800,000 sales records. This project leverages Excel’s Power Pivot and Power Query to bypass traditional spreadsheet limitations, transforming raw data into a high-performance analytical tool. By modeling complex data relationships, I identified key growth drivers and regional profitability leaks, providing the Sales Director with a scalable solution for 2022 strategy planning.
 
 ## Business Questions Answered
 1. What are the top 10 products by growth?
