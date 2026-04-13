@@ -43,7 +43,7 @@ Applied Top & Bottom value filters to identify demand trends, analyze product gr
 The original dataset is not included due to data privacy restrictions.
 However, the analysis methodology and insights are fully documented.
 
-## View the full case study here
+## View Business Case Study & Strategic Insights here.
 https://raytiasha.notion.site/AtliQ-Hardware-Sales-Analytics-Case-Study-bc6377974d8183a8be4f818f1e31afa9?pvs=143
 
 ---
