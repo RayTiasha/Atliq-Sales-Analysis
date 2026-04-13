@@ -34,5 +34,5 @@ Note:
 The original dataset is not included due to data privacy restrictions.
 However, the analysis methodology and insights are fully documented.
 
-Author:
-RayTiasha
+View the full case study here:
+https://raytiasha.notion.site/AtliQ-Hardware-Sales-Analytics-Case-Study-bc6377974d8183a8be4f818f1e31afa9?pvs=143
