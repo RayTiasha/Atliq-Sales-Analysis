@@ -18,7 +18,7 @@ Power Query, Power Pivot (Data Modeling), DAX, Pivot Tables, Advanced Conditiona
 Created a Star Schema with Fact_Sales connected to Dim tables (Products, Customers, Markets).
 Established a Date Table using Power Pivot to enable Time Intelligence analysis.
 
-<img width="1777" height="797" alt="image" src="https://github.com/user-attachments/assets/d041b446-b4be-42c4-b8d6-a9a406503265" />
+https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Schema%20Diagram.png
 
 ## Key Calculated Measures
 To drive the analysis, I developed several DAX measures within the Excel Data Model. Here are a few examples of the core business logic:
