@@ -49,4 +49,4 @@ https://raytiasha.notion.site/AtliQ-Hardware-Sales-Analytics-Case-Study-bc637797
 ---
 ## 🔗 Connect with Me
 
-**[Portfolio](https://raytiasha.notion.site/Tiasha-Ray-f26377974d8183abb9b7016970a13367) | [LinkedIn](https://www.linkedin.com/in/raytiasha/) | [Email](mailto:inboxtiasha@gmail.com)**
+**[LinkedIn](https://www.linkedin.com/in/raytiasha/) | [Email](mailto:inboxtiasha@gmail.com)**
