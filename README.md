@@ -33,11 +33,11 @@ Aggregated net sales using DAX measures.
 Applied Top & Bottom value filters to identify demand trends, analyze product growth, and compare sales performance.
 
 ## Key Insights & Findings
-Top 10 products drove majority of growth
-Select divisions contributed most to revenue increase
-Demand concentrated among few high-performing products
-New products showed promising adoption
-Top 5 countries generated highest revenue
+1. The exponential growth of the products like Mx NB and Smash series suggests that AtliQ should reallocate marketing budget from the bottom-performing 'Home Allin1' series toward these high-momentum categories for the 2022 fiscal year.
+2. While the PC division showed the highest agility with 413% growth, the P&A (Peripherals & Accessories) division remains the core of the business, contributing 56% of total 2021 revenue. This suggests that customers are buying AtliQ PCs and then filling their ecosystem with AtliQ accessories.
+3. The Master series drives supply chain velocity with over 11M units sold. For 2022, I recommend maintaining high stock levels for the Master series to ensure market share. AQ HOME Allin1 (Gen 1 & 2) have the lowest demand in the entire catalog, so the remaining stock can be cleared with a bundle deal.
+4. Bringing in $176.2M from new products alone in a single year is a major achievement. This represents nearly 30% of the total 2021 Net Sales ($598.9M).
+5. India is a supermarket as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments.
 
 ## Note
 The original dataset is not included due to data privacy restrictions.
