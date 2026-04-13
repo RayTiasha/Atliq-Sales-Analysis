@@ -45,3 +45,6 @@ However, the analysis methodology and insights are fully documented.
 
 View the full case study here:
 https://raytiasha.notion.site/AtliQ-Hardware-Sales-Analytics-Case-Study-bc6377974d8183a8be4f818f1e31afa9?pvs=143
+
+More of my work
+
