@@ -1,7 +1,4 @@
-# Atliq-Sales-Analysis
-Sales analysis identifying growth drivers using Excel
-Atliq Hardware Sales Analysis
-Project Overview
+# Strategic Sales & Growth Analysis for AtliQ Hardware (2020-2021)
 
 AtliQ Hardware faced the challenge of extracting actionable insights from a massive dataset of ~800,000 sales records. This project leverages Excel’s Power Pivot and Power Query to bypass traditional spreadsheet limitations, transforming raw data into a high-performance analytical tool. By modeling complex data relationships, I identified key growth drivers and regional profitability leaks, providing the Sales Director with a scalable solution for 2022 strategy planning.
 
