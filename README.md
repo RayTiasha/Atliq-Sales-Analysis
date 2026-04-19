@@ -35,6 +35,8 @@ CALCULATE(
     dim_date[FY] = "2021"
 )
 ```
+### Model Sustainability
+The model is built for Scalability. While it currently handles ~800k records for the 2020-2021 period, the Power Pivot architecture can support millions of rows without performance degradation, making it a viable long-term solution for global sales teams across 5+ regions.
 
 ## Key Insights & Findings
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
