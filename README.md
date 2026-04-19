@@ -1,4 +1,4 @@
-# Strategic Sales & Growth Analysis for AtliQ Hardware (2020-2021)
+# Sales Architecture for AtliQ Hardware through ROI Analysis
 
 AtliQ Hardware required a scalable solution to navigate ~800,000 sales records across global markets. I engineered an analytical model using Excel’s Power Pivot and Power Query, bypassing standard spreadsheet limitations to create a "Single Source of Truth." This project moves beyond static reporting to provide a dynamic tool that identifies regional profitability leaks and high-momentum growth drivers for 2022 fiscal planning.
 
