@@ -28,13 +28,13 @@ To drive the analysis, I developed several DAX measures within the Excel Data Mo
 2. Net Sales 2020 = CALCULATE([Net Sales],dim_date[FY]="2020")
 3. Net Sales 2021 = CALCULATE([Net Sales],dim_date[FY]="2021")
 4. Variance = DIVIDE([NetSales 21],[NetSales 20],0)
-'''Code Snippet
+```Code Snippet
 Net Sales 2021 = 
 CALCULATE(
     [Net Sales],
     dim_date[FY] = "2021"
 )
-'''
+```
 
 ## Key Insights & Findings
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
