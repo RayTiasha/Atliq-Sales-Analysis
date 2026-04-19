@@ -2,7 +2,7 @@
 
 AtliQ Hardware required a scalable solution to navigate ~800,000 sales records across global markets. I engineered an analytical model using Excel’s Power Pivot and Power Query, bypassing standard spreadsheet limitations to create a "Single Source of Truth." This project moves beyond static reporting to provide a dynamic tool that identifies regional profitability leaks and high-momentum growth drivers for 2022 fiscal planning.
 
-## The Problem: The "Execution Gap" in Big Data
+## The Problem
 With 800k+ records, standard Excel functions become slow and prone to error. AtliQ needed a model that could:
 1. Consolidate fragmented CSV data from multiple regions.
 2. Maintain data integrity while performing complex Time-Intelligence calculations.
