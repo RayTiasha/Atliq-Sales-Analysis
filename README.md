@@ -1,18 +1,15 @@
-# Sales Architecture for AtliQ Hardware through ROI Analysis
+# ROI Analysis of Sales Architecture at AtliQ Hardware to Drive Business Growth
 
-AtliQ Hardware required a scalable solution to navigate ~800,000 sales records across global markets. I engineered an analytical model using Excel’s Power Pivot and Power Query, bypassing standard spreadsheet limitations to create a "Single Source of Truth." This project moves beyond static reporting to provide a dynamic tool that identifies regional profitability leaks and high-momentum growth drivers for 2022 fiscal planning.
-
-## The Problem
-With 800k+ records, standard Excel functions become slow and prone to error. AtliQ needed a model that could:
-1. Consolidate fragmented CSV data from multiple regions.
-2. Maintain data integrity while performing complex Time-Intelligence calculations.
-3. Translate massive datasets into a clear narrative for the Sales Director.
+AtliQ Hardware needed a scalable solution to manage ~800,000 sales records distributed across multiple regional CSV files. Standard Excel functions were slow, error-prone, and insufficient for advanced time-intelligence calculations. Without a unified analytical model, leadership risked relying on incomplete insights, limiting their ability to identify profitability leaks and growth drivers.
 
 ## Tool Used
 Microsoft Excel
 
 ## Features
 Power Query, Power Pivot (Data Modeling), DAX, Pivot Tables, Advanced Conditional Formatting.
+
+## Solution
+I developed an analytical model to consolidate all regional datasets into a single source of truth. This solution bypassed spreadsheet limitations, maintained data integrity, and delivered dynamic reporting capabilities. The model provided leadership with clear visibility into divisional performance, product-level profitability, and regional growth opportunities, directly supporting fiscal 2022 planning.
 
 ## Approach
 1. Leveraged Power Query for advanced data transformation, ensuring zero data loss during the pivot from raw CSVs to structured tables.
@@ -21,6 +18,9 @@ Power Query, Power Pivot (Data Modeling), DAX, Pivot Tables, Advanced Conditiona
 4. Developed calculated measures to standardize business logic across the organization (e.g., Net Sales, Variance %, and FY 20/21 Performance).
 
 ![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
+
+## Impact  
+The model enabled seamless YoY comparisons, ensuring consistent insights across the organization and enhancing reliability for large-scale reporting. It also provided a scalable foundation for future analytics projects, eliminating reliance on manual, error-prone spreadsheets.
 
 ## Key Calculated Measures
 To drive the analysis, I developed several DAX measures within the Excel Data Model. Here are a few examples of the core business logic:
