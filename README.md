@@ -2,6 +2,12 @@
 
 AtliQ Hardware needed a scalable solution to manage ~800,000 sales records distributed across multiple regional CSV files. Standard Excel functions were slow, error-prone, and insufficient for advanced time-intelligence calculations. Without a unified analytical model, leadership risked relying on incomplete insights, limiting their ability to identify profitability leaks and growth drivers.
 
+## Objective
+1. Consolidate fragmented datasets.
+2. Enable Year‑over‑Year (YoY) comparisons across divisions, products, and geographies.
+3. Standardize business logic with reusable measures for consistent reporting.
+4. Provide a scalable foundation for future analytics projects.
+
 ## Tool Used
 Microsoft Excel
 
@@ -13,14 +19,11 @@ I developed an analytical model to consolidate all regional datasets into a sing
 
 ## Approach
 1. Leveraged Power Query for advanced data transformation, ensuring zero data loss during the pivot from raw CSVs to structured tables.
-2. Implemented a Star Schema with Fact_Sales at the center, optimized for speed and filter context.
+2. Implemented a Star Schema with "Fact_Sales" at the center, optimized for speed and filter context.
 3. Established a dedicated Dim_Date table to enable seamless YoY (Year-over-Year) comparisons.
 4. Developed calculated measures to standardize business logic across the organization (e.g., Net Sales, Variance %, and FY 20/21 Performance).
 
 ![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
-
-## Impact  
-The model enabled seamless YoY comparisons, ensuring consistent insights across the organization and enhancing reliability for large-scale reporting. It also provided a scalable foundation for future analytics projects, eliminating reliance on manual, error-prone spreadsheets.
 
 ## Key Calculated Measures
 To drive the analysis, I developed several DAX measures within the Excel Data Model. Here are a few examples of the core business logic:
@@ -35,8 +38,11 @@ CALCULATE(
     dim_date[FY] = "2021"
 )
 ```
-### Model Sustainability
-The model is built for Scalability. While it currently handles ~800k records for the 2020-2021 period, the Power Pivot architecture can support millions of rows without performance degradation, making it a viable long-term solution for global sales teams across 5+ regions.
+## Impact and Value
+1. Achieved zero data loss during transformation.
+2. Enhanced reliability and scalability for large‑scale reporting.
+3. Established a single source of truth for consistent insights across the organization.
+4. Shifted reporting from manual spreadsheets to a scalable analytical model.
 
 ## Key Insights & Findings
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
@@ -46,6 +52,9 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 3. The Master series drives supply chain velocity with over 11M units sold. For 2022, I recommend maintaining high stock levels for the Master series to ensure market share. AQ HOME Allin1 (Gen 1 & 2) have the lowest demand in the entire catalog, so the remaining stock can be cleared with a bundle deal. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%26Bottom%205%20products.pdf)
 4. Bringing in $176.2M from new products alone in a single year is a major achievement. This represents nearly 30% of the total 2021 Net Sales ($598.9M). [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/New%20Products.pdf)
 5. India is a super-market as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
+
+## Conclusion
+This project demonstrated how a structured data model can transform fragmented records into actionable insights. By consolidating 800k+ sales records into a star schema and standardizing measures, AtliQ Hardware gained reliable, scalable reporting that directly supported fiscal 2022 planning and future growth initiatives.
 
 ## Note
 The original dataset is not included due to data privacy restrictions.
