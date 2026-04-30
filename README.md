@@ -1,6 +1,10 @@
 # ROI Analysis of Sales Architecture at AtliQ Hardware to Drive Business Growth
 
-AtliQ Hardware needed a scalable solution to manage ~800,000 sales records distributed across multiple regional CSV files. Standard Excel functions were slow, error-prone, and insufficient for advanced time-intelligence calculations. Without a unified analytical model, leadership risked relying on incomplete insights, limiting their ability to identify profitability leaks and growth drivers.
+## Executive Summary
+AtliQ Hardware experienced a significant revenue surge between 2020 and 2021, yet leadership lacked the granular visibility required to sustain this momentum. With over 800,000 sales records spread across global markets, the company needed a scalable solution to consolidate fragmented data and transform it into actionable insights for fiscal 2022 planning.
+
+## Problem Statement
+Sales data was stored across multiple regional CSV files, making reporting slow, error-prone, and difficult to scale. Standard Excel functions struggled with the dataset’s size, limiting the ability to perform advanced time-intelligence calculations. Without a unified analytical model, leadership risked relying on incomplete or inconsistent insights, obscuring profitability leaks and delaying identification of growth opportunities.
 
 ## Objective
 1. Consolidate fragmented datasets.
@@ -8,14 +12,11 @@ AtliQ Hardware needed a scalable solution to manage ~800,000 sales records distr
 3. Standardize business logic with reusable measures for consistent reporting.
 4. Provide a scalable foundation for future analytics projects.
 
-## Tool Used
-Microsoft Excel
-
 ## Features
 Power Query, Power Pivot (Data Modeling), DAX, Pivot Tables, Advanced Conditional Formatting.
 
 ## Solution
-I developed an analytical model to consolidate all regional datasets into a single source of truth. This solution bypassed spreadsheet limitations, maintained data integrity, and delivered dynamic reporting capabilities. The model provided leadership with clear visibility into divisional performance, product-level profitability, and regional growth opportunities, directly supporting fiscal 2022 planning.
+I approached this project by first identifying the critical levers for stakeholder success: Revenue Growth, Market Expansion, and Product Demand. By analyzing three years of complex sales data, I transformed raw datasets into a strategic roadmap using advanced MS-Excel features for robust cleaning, aggregation, and visual storytelling.
 
 ## Approach
 1. Leveraged Power Query for advanced data transformation, ensuring zero data loss during the pivot from raw CSVs to structured tables.
@@ -42,7 +43,7 @@ CALCULATE(
 1. Achieved zero data loss during transformation.
 2. Enhanced reliability and scalability for large‑scale reporting.
 3. Established a single source of truth for consistent insights across the organization.
-4. Shifted reporting from manual spreadsheets to a scalable analytical model.
+4. Shifted reporting from distributed spreadsheets to a scalable analytical model.
 
 ## Key Insights & Findings
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
@@ -54,7 +55,7 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 5. India is a super-market as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
 
 ## Conclusion
-This project demonstrated how a structured data model can transform fragmented records into actionable insights. By consolidating 800k+ sales records into a star schema and standardizing measures, AtliQ Hardware gained reliable, scalable reporting that directly supported fiscal 2022 planning and future growth initiatives.
+It highlighted how data analytics can transform fragmented records into actionable insights, enabling informed decision-making, supporting strategic planning, and guiding AtliQ Hardware toward high-impact opportunities for fiscal 2022 and future growth initiatives.
 
 ## Note
 The original dataset is not included due to data privacy restrictions.
