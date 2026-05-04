@@ -1,16 +1,10 @@
-# Analysis of Sales Architecture at AtliQ Hardware to Drive Business Growth
-
-## Executive Summary
-AtliQ Hardware experienced a significant revenue surge between 2020 and 2021, yet leadership lacked the granular visibility required to sustain this momentum. With over 800,000 sales records spread across global markets, the company needed a scalable solution to consolidate fragmented data and transform it into actionable insights for fiscal 2022 planning.
+# Product Sales Analysis of at AtliQ Hardware to Drive Business Growth
 
 ## Problem Statement
-Sales data was stored across multiple regional CSV files, making reporting slow, error-prone, and difficult to scale. Standard Excel functions struggled with the dataset’s size, limiting the ability to perform advanced time-intelligence calculations. Without a unified analytical model, leadership risked relying on incomplete or inconsistent insights, obscuring profitability leaks and delaying identification of growth opportunities.
+AtliQ Hardware experienced a significant revenue surge between 2020 and 2021, yet leadership lacked the granular visibility required to sustain this momentum. The company needed a unified analytical model to perform advanced time-intelligence calculations. Without it, leadership risked relying on incomplete or inconsistent data, obscuring profitability leaks and delaying identification of growth opportunities.
 
-## Approach
-1. Consolidate fragmented datasets.
-2. Enable Year‑over‑Year (YoY) comparisons across divisions, products, and geographies.
-3. Standardize business logic with reusable measures for consistent reporting.
-4. Provide a scalable foundation for future analytics projects.
+## Dataset
+Sales data was fragmented and stored across multiple regional CSV files.
 
 ## Features
 Power Query, Power Pivot (Data Modeling), DAX, Pivot Tables, Advanced Conditional Formatting.
