@@ -36,12 +36,6 @@ CALCULATE(
     dim_date[FY] = "2021"
 )
 ```
-## Impact and Value
-1. Achieved zero data loss during transformation.
-2. Enhanced reliability and scalability for large‑scale reporting.
-3. Established a single source of truth for consistent insights across the organization.
-4. Shifted reporting from distributed spreadsheets to a scalable analytical model.
-
 ## Key Insights & Findings
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
 
