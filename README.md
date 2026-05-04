@@ -1,10 +1,10 @@
-# Product Sales Analysis of at AtliQ Hardware to Drive Business Growth
+# Product Sales Analysis at AtliQ Hardware to Drive Business Growth
 
 ## Problem Statement
 AtliQ Hardware experienced a significant revenue surge between 2020 and 2021, yet leadership lacked the granular visibility required to sustain this momentum. The company needed a unified analytical model to perform advanced time-intelligence calculations. Without it, leadership risked relying on incomplete or inconsistent data, obscuring profitability leaks and delaying identification of growth opportunities.
 
 ## Dataset
-Sales data was fragmented and stored across multiple regional CSV files.
+Sales, products, market and customer data was fragmented and stored across multiple CSV files.
 
 ## Features
 Power Query, Power Pivot (Data Modeling), DAX, Pivot Tables, Advanced Conditional Formatting.
