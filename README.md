@@ -16,9 +16,6 @@ Sales data was stored across multiple regional CSV files, making reporting slow,
 Power Query, Power Pivot (Data Modeling), DAX, Pivot Tables, Advanced Conditional Formatting.
 
 ## Solution
-I approached this project by first identifying the critical levers for stakeholder success: Revenue Growth, Market Expansion, and Product Demand. By analyzing three years of complex sales data, I transformed raw datasets into a strategic roadmap using advanced MS-Excel features for robust cleaning, aggregation, and visual storytelling.
-
-## Approach
 1. Leveraged Power Query for advanced data transformation, ensuring zero data loss during the pivot from raw CSVs to structured tables.
 2. Implemented a Star Schema with "Fact_Sales" at the center, optimized for speed and filter context.
 3. Established a dedicated Dim_Date table to enable seamless YoY (Year-over-Year) comparisons.
