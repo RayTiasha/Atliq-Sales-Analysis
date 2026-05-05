@@ -6,12 +6,9 @@ AtliQ Hardware experienced a significant revenue surge between 2020 and 2021, ye
 ## Dataset
 Sales, products, market, and customer data were fragmented and stored across multiple CSV files.
 
-## Features
-Power Query, Power Pivot (Data Modeling), DAX, Pivot Tables, Advanced Conditional Formatting.
-
 ## Solution
 1. Leveraged Power Query for advanced data transformation, ensuring zero data loss during the pivot from raw CSVs to structured tables.
-2. Implemented a Star Schema with "Fact_Sales" at the center, optimized for speed and filter context.
+2. Implemented a Star Schema using Power Query for Data Modeling, with "Fact_Sales" at the center, optimized for speed and filter context.
 3. Established a dedicated Dim_Date table to enable seamless YoY (Year-over-Year) comparisons.
 4. Developed calculated measures to standardize business logic across the organization (e.g., Net Sales, Variance %, and FY 20/21 Performance).
 
