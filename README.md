@@ -48,6 +48,6 @@ The original dataset is not included due to data privacy restrictions.
 However, the analysis methodology and insights are fully documented.
 
 ---
-## 🔗 Connect with Me
+## 🔗 Find Me Online
 
-**[LinkedIn](https://www.linkedin.com/in/raytiasha/) | [Email](mailto:inboxtiasha@gmail.com)**
+**[LinkedIn](https://www.linkedin.com/in/raytiasha/) | [Portfolio](https://raytiasha.carrd.co/) | [Email](mailto:inboxtiasha@gmail.com)**
