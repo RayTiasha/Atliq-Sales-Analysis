@@ -6,12 +6,9 @@ Sales Director at Atliq Hardware needed immediate visibility into the following 
 - Underperforming markets/customers  
 - Growth opportunities for 2026
   
-## Dataset
-Sales, products, market, and customer data were fragmented and stored across multiple CSV files.
-
-## Solution
-1. Leveraged Power Query for advanced data transformation, ensuring zero data loss during the pivot from raw CSVs to structured tables.
-2. Implemented a Star Schema using Power Query for Data Modeling, with "Fact_Sales" at the center, optimized for speed and filter context.
+## My Approach
+1. Leveraged Power Query for fixing null values and standardize customer names.
+2. Implemented a Star Schema using Power Query for Data Modeling, with "Fact_Sales" at the center.
 3. Established a dedicated Dim_Date table to enable seamless YoY (Year-over-Year) comparisons.
 4. Developed calculated measures to standardize business logic across the organization (e.g., Net Sales, Variance %, and FY 20/21 Performance).
 
@@ -40,7 +37,9 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 5. India is a super-market as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
 
 ## Business Recommendations
-It highlighted how data analytics can transform fragmented records into actionable insights, enabling informed decision-making, supporting strategic planning, and guiding AtliQ Hardware toward high-impact opportunities for fiscal 2022 and future growth initiatives.
+1. Balance marketing budget for different regions.
+2. Customer tier program for top 5 customers.
+3. Phase out Electronics for unused products.
 
 ## Note
 The original dataset is not included due to data privacy restrictions.
