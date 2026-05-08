@@ -30,7 +30,7 @@ CALCULATE(
     dim_date[FY] = "2021"
 )
 ```
-## Key Insights & Findings
+## Key Findings
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
 
 1. The exponential growth of the products like Mx NB and Smash 2 suggests that AtliQ should allocate good marketing budget toward these high-momentum categories for the 2022 fiscal year. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%2010%20products.pdf)
@@ -39,7 +39,7 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 4. Bringing in $176.2M from new products alone in a single year is a major achievement. This represents nearly 30% of the total 2021 Net Sales ($598.9M). [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/New%20Products.pdf)
 5. India is a super-market as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
 
-## Conclusion
+## Business Recommendations
 It highlighted how data analytics can transform fragmented records into actionable insights, enabling informed decision-making, supporting strategic planning, and guiding AtliQ Hardware toward high-impact opportunities for fiscal 2022 and future growth initiatives.
 
 ## Note
