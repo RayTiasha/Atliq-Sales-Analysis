@@ -1,8 +1,11 @@
-# Product Sales Analysis at AtliQ Hardware to Drive Business Growth
+# AtliQ Hardware Sales Analysis
 
 ## Problem Statement
-AtliQ Hardware experienced a significant revenue surge between 2020 and 2021, yet leadership lacked the granular visibility required to sustain this momentum. The company needed a unified analytical model to perform advanced time-intelligence calculations. Without it, leadership risked relying on incomplete or inconsistent data, obscuring profitability leaks and delaying identification of growth opportunities.
-
+Sales Director at Atliq Hardware needed immediate visibility into the following questions to drive business growth:
+- Revenue by region/product
+- Underperforming markets/customers  
+- Growth opportunities for 2026
+  
 ## Dataset
 Sales, products, market, and customer data were fragmented and stored across multiple CSV files.
 
