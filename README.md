@@ -14,6 +14,8 @@ Sales Director at Atliq Hardware needed immediate visibility into the following 
 
 ![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
 
+<img width="2000" height="1600" alt="Untitled design" src="https://github.com/user-attachments/assets/99c703ab-8baf-4b35-b611-ff3187e771d8" />
+
 ## Key Calculated Measures
 To drive the analysis, I developed several DAX measures within the Excel Data Model. Here are a few examples of the core business logic:
 1. Net Sales = SUM(fact_sales_monthly[net_sales_amount])
