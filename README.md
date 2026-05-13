@@ -1,12 +1,17 @@
 # AtliQ Hardware Sales Analysis
 
-## Problem Statement
-Sales Director at Atliq Hardware needed immediate visibility into the following questions to drive business growth:
+## Project Objective
+The Sales Director at Atliq Hardware needed immediate visibility into key business metrics that supports strategic decision-making and drive business growth.
+
+## Tool used
+Microsoft Excel
+
+## KPIs
 - Revenue by region/product
 - Underperforming markets/customers  
-- Growth opportunities for 2026
+- Growth opportunities for 2022
   
-## My Approach
+## Solution Approach
 1. Leveraged Power Query for fixing null values and standardize customer names.
 2. Implemented a Star Schema using Power Query for Data Modeling, with "Fact_Sales" at the center.
 3. Established a dedicated Dim_Date table to enable seamless YoY (Year-over-Year) comparisons.
@@ -29,7 +34,7 @@ CALCULATE(
     dim_date[FY] = "2021"
 )
 ```
-## Key Findings
+## Business Insights
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
 
 1. The exponential growth of the products like Mx NB and Smash 2 suggests that AtliQ should allocate good marketing budget toward these high-momentum categories for the 2022 fiscal year. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%2010%20products.pdf)
@@ -38,7 +43,7 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 4. Bringing in $176.2M from new products alone in a single year is a major achievement. This represents nearly 30% of the total 2021 Net Sales ($598.9M). [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/New%20Products.pdf)
 5. India is a super-market as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
 
-## Business Recommendations
+## Recommendations
 1. Balance marketing budget for different regions.
 2. Customer tier program for top 5 customers.
 3. Phase out Electronics for unused products.
