@@ -1,28 +1,29 @@
-# AtliQ Hardware Sales Analysis
+# AtliQ Hardware's Sales Analysis
 
 ## Project Objective
-The Sales Director at Atliq Hardware needed immediate visibility into key business metrics that supports strategic decision-making and drive business growth.
+The Sales Director at Atliq Hardware requires immediate visibility into key business metrics to support strategic decision-making and drive business growth. Currently, leadership team lacks centralized tracking for revenue, making it difficult to identify underperforming markets and pinpoint growth opportunities.
 
 ## Tool used
 Microsoft Excel
 
 ## KPIs
-- Revenue by region/product
-- Underperforming markets/customers  
-- Growth opportunities for 2022
+- Net Sales (Gross Sales minus returns, allowances, and discounts).
+- Analysis Dimensions at Geographic Region and Product Category.
+- Year-over-Year (YoY) Growth Percentage to isolate underperforming markets and target 2022 opportunities.
   
-## Solution Approach
-1. Leveraged Power Query for fixing null values and standardize customer names.
-2. Implemented a Star Schema using Power Query for Data Modeling, with "Fact_Sales" at the center.
-3. Established a dedicated Dim_Date table to enable seamless YoY (Year-over-Year) comparisons.
-4. Developed calculated measures to standardize business logic across the organization (e.g., Net Sales, Variance %, and FY 20/21 Performance).
+## Data Methodology
+1. Data Cleaning & ETL - Utilized Power Query to handle missing values, resolve nulls, and standardize inconsistent customer naming conventions.
+2. Data Modeling - Implemented a robust Star Schema by separating transactional data into Fact tables and used dedicated Dimension tables.
+3. Time Intelligence - Established a dedicated Date dimension table to enable seamless, standardized time-comparison logic.
+4. Analytical Calculations - Programmed custom DAX Measures (Power Pivot) to standardize business logic and automate the calculation of Net Sales and YoY Growth.
+
+## Dataset Structure
 
 ![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
 
-<img width="2000" height="1600" alt="Untitled design" src="https://github.com/user-attachments/assets/99c703ab-8baf-4b35-b611-ff3187e771d8" />
+## Technical Implementation
+The following calculations were implemented in Power Pivot to standardize business logic:
 
-## Key Calculated Measures
-To drive the analysis, I developed several DAX measures within the Excel Data Model. Here are a few examples of the core business logic:
 1. Net Sales = SUM(fact_sales_monthly[net_sales_amount])
 2. Net Sales 2020 = CALCULATE([Net Sales],dim_date[FY]="2020")
 3. Net Sales 2021 = CALCULATE([Net Sales],dim_date[FY]="2021")
@@ -44,9 +45,13 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 5. India is a super-market as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
 
 ## Recommendations
-1. Balance marketing budget for different regions.
-2. Customer tier program for top 5 customers.
-3. Phase out Electronics for unused products.
+1. Shift capital from saturated, underperforming regions and balance the budget toward high-growth geographical territories identified in 2022.
+2. Design a targeted retention and loyalty program specifically for the top 5 revenue-generating clients to maximize customer lifetime value (CLV).
+3. Formulate an exit strategy or gradual phase-out plan for stagnant, unused inventory within the Electronics category to lower holding costs and free up working capital.
+
+## Report
+
+<img width="2000" height="1600" alt="Untitled design" src="https://github.com/user-attachments/assets/99c703ab-8baf-4b35-b611-ff3187e771d8" />
 
 ## Note
 The original dataset is not included due to data privacy restrictions.
