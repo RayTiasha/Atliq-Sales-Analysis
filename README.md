@@ -7,6 +7,7 @@ The Sales Director at Atliq Hardware requires immediate visibility into key busi
 Microsoft Excel
 
 ## KPIs
+We are investigating the following KPIs and the recommendations will be used by sales team to better allocate product resources.
 - Net Sales (Gross Sales minus returns, allowances, and discounts).
 - Analysis Dimensions at Geographic Region and Product Category.
 - Year-over-Year (YoY) Growth Percentage to isolate underperforming markets and target 2022 opportunities.
