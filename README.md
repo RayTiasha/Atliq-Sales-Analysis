@@ -1,6 +1,6 @@
 # AtliQ Hardware's Sales Performance Analysis
 
-## Project Objective
+## Project Background
 The Sales Director at Atliq Hardware requires immediate visibility into key business metrics to support strategic decision-making and drive business growth. Currently, leadership team lacks centralized tracking for revenue, making it difficult to identify underperforming markets and pinpoint growth opportunities.
 
 ## Tool used
