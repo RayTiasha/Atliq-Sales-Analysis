@@ -11,12 +11,6 @@ We are investigating the following KPIs and the recommendations will be used by 
 - Net Sales (Gross Sales minus returns, allowances, and discounts).
 - Analysis Dimensions at Geographic Region and Product Category.
 - Year-over-Year (YoY) Growth Percentage to isolate underperforming markets and target 2022 opportunities.
-  
-## Data Methodology
-1. Data Cleaning & ETL - Utilized Power Query to handle missing values, resolve nulls, and standardize inconsistent customer naming conventions.
-2. Data Modeling - Implemented a robust Star Schema by separating transactional data into Fact tables and used dedicated Dimension tables.
-3. Time Intelligence - Established a dedicated Date dimension table to enable seamless, standardized time-comparison logic.
-4. Analytical Calculations - Programmed custom DAX Measures (Power Pivot) to standardize business logic and automate the calculation of Net Sales and YoY Growth.
 
 ## Dataset Structure
 This analysis used data representing customers, product categories, markets, and sales from 2020 to 2021.<br>
@@ -25,6 +19,12 @@ This analysis used data representing customers, product categories, markets, and
 **2. Product Data** - Includes product details such as product names, product categories, product codes, and divisions(computers/peripherals/storage).<br>
 **3. Market Data** - Contains market(country) and regional information.<br>
 **4. Sales Data** - Includes transactional sales records such as sales quantity, net sales amount, dates, customer codes, and product codes.
+
+## Data Methodology
+1. Data Cleaning & ETL - Utilized Power Query to handle missing values, resolve nulls, and standardize inconsistent customer naming conventions.
+2. Data Modeling - Implemented a robust Star Schema by separating transactional data into Fact tables and used dedicated Dimension tables.
+3. Time Intelligence - Established a dedicated Date dimension table to enable seamless, standardized time-comparison logic.
+4. Analytical Calculations - Programmed custom DAX Measures (Power Pivot) to standardize business logic and automate the calculation of Net Sales and YoY Growth.
 
 ![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
 
@@ -45,8 +45,8 @@ CALCULATE(
 ## Business Insights
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
 
-1. The exponential growth of the products like Mx NB and Smash 2 suggests that AtliQ should allocate good marketing budget toward these high-momentum categories for the 2022 fiscal year. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%2010%20products.pdf)
-2. While the PC division showed the highest agility with 413% growth, the P&A (Peripherals & Accessories) division remains the core of the business, contributing 56% of total 2021 revenue. This suggests that customers are buying AtliQ PCs and then filling their ecosystem with AtliQ accessories. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Division.pdf)
+1. The exponential growth of the products like Mx NB and Smash 2 suggests that AtliQ should allocate good marketing budget toward these high-momentum categories for the 2022 year. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%2010%20products.pdf)
+2. The PC division showed the highest growth at 413%. The P&A (Peripherals & Accessories) division contributed to 56% of total 2021 revenue. This suggests that customers are buying AtliQ PCs and then filling their ecosystem with AtliQ accessories. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Division.pdf)
 3. The Master series drives supply chain velocity with over 11M units sold. For 2022, I recommend maintaining high stock levels for the Master series to ensure market share. AQ HOME Allin1 (Gen 1 & 2) have the lowest demand in the entire catalog, so the remaining stock can be cleared with a bundle deal. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%26Bottom%205%20products.pdf)
 4. Bringing in $176.2M from new products alone in a single year is a major achievement. This represents nearly 30% of the total 2021 Net Sales ($598.9M). [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/New%20Products.pdf)
 5. India is a super-market as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
