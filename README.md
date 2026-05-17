@@ -3,6 +3,16 @@
 ## Project Background
 Atliq Hardware manufactures computers, peripherals, and storage products for markets across the APAC, EMEA, and NA regions. The Sales Director wants to understand underperforming markets based on the net sales from the previous two years and identify growth opportunities so that he can make informed decisions for the upcoming year 2022.
 
+## Executive Summary
+
+AtliQ’s net sales performance across customers, products, markets, and divisions for the years 2020 and 2021 highlights strong growth in key product categories such as Mx NB, Smash 2, and the Master series, indicating high customer demand and strong product-market fit. The PC division recorded significant year-over-year growth, while the Peripherals & Accessories (P&A) division remained the largest revenue contributor, accounting for over half of total sales in 2021.
+
+At the market level, India emerged as the top-performing region, generating revenue comparable to the combined contribution of the USA, South Korea, and Canada. North America continues to be a critical secondary market, while other regions show potential for further growth.
+
+New product launches contributed nearly 30% of total net sales in 2021, demonstrating their strong impact on overall business performance. At the same time, certain products such as AQ HOME Allin1 (Gen 1 & 2) showed weak demand and may require strategic review.
+
+Overall, the findings suggest that AtliQ’s sales growth can be driven by focusing on high-performing products and markets, strengthening the P&A ecosystem, scaling successful new launches, and optimizing or reducing investment in low-demand products to improve overall efficiency and revenue contribution.
+
 ## Tool used
 Microsoft Excel
 
