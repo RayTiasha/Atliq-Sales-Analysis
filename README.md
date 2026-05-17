@@ -45,16 +45,18 @@ CALCULATE(
 ## Business Insights
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
 
-1. The exponential growth of the products like Mx NB and Smash 2 suggests that AtliQ should allocate good marketing budget toward these high-momentum categories for the 2022 year. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%2010%20products.pdf)
-2. The PC division showed the highest growth at 413%. The P&A (Peripherals & Accessories) division contributed to 56% of total 2021 revenue. This suggests that customers are buying AtliQ PCs and then filling their ecosystem with AtliQ accessories. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Division.pdf)
-3. The Master series drives supply chain velocity with over 11M units sold. For 2022, I recommend maintaining high stock levels for the Master series to ensure market share. AQ HOME Allin1 (Gen 1 & 2) have the lowest demand in the entire catalog, so the remaining stock can be cleared with a bundle deal. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%26Bottom%205%20products.pdf)
-4. Bringing in $176.2M from new products alone in a single year is a major achievement. This represents nearly 30% of the total 2021 Net Sales ($598.9M). [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/New%20Products.pdf)
-5. India is a super-market as it generates nearly as much revenue as the USA, South Korea, and Canada combined. The North American region (USA & Canada) as a whole is a critical secondary pillar for the company. There is significant room for growth in the European market compared to the Asian and American segments. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
+1. Products such as Mx NB and Smash 2 recorded strong sales growth, indicating high customer demand within these categories. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%2010%20products.pdf)
+2. The PC division recorded the highest year-over-year growth at 413%, while the P&A (Peripherals & Accessories) division contributed 56% of total 2021 revenue. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Division.pdf)
+3. The Master series achieved over 11 million units sold, making it the highest-volume product series in the portfolio. In contrast, AQ HOME Allin1 (Gen 1 & 2) recorded the lowest sales performance. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%26Bottom%205%20products.pdf)
+4. New products generated $176.2M in revenue during 2021, contributing nearly 30% of the company’s total net sales of $598.9M. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/New%20Products.pdf)
+5. India emerged as the highest-performing market, generating revenue nearly equal to the combined contribution of the USA, South Korea, and Canada. Additionally, the North American market (USA & Canada) remained a significant contributor to total sales. [Link](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/reports/Top%205%20Net%20Sales.pdf)
 
 ## Recommendations
-1. Shift capital from saturated, underperforming regions and balance the budget toward high-growth geographical territories identified in 2022.
-2. Design a targeted retention and loyalty program specifically for the top 5 revenue-generating clients to maximize customer lifetime value (CLV).
-3. Formulate an exit strategy or gradual phase-out plan for stagnant, unused inventory within the Electronics category to lower holding costs and free up working capital.
+1. Increase focus on high-performing product categories such as Mx NB and Smash 2 by aligning marketing and sales efforts toward products with strong growth momentum.
+2. Continue strengthening the P&A (Peripherals & Accessories) division, as it contributes the majority share of total revenue and remains a key business driver.
+3. Maintain sufficient inventory levels for high-demand products such as the Master series to support continued sales performance and avoid stock shortages.
+4. Reassess the performance of low-demand products such as AQ HOME Allin1 (Gen 1 & 2) and consider promotional strategies or inventory optimization to reduce excess stock.
+5. Prioritize investment and expansion efforts in high-performing markets such as India and North America while exploring additional growth opportunities in other regions.
 
 ## Report
 
@@ -63,3 +65,5 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 ## Note
 The original dataset is not included due to data privacy restrictions.
 However, the analysis methodology and insights are fully documented.
+
+For more of my projects and data journey, visit my [Portfolio](https://raytiasha.github.io/Portfolio/).
