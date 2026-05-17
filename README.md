@@ -20,10 +20,11 @@ We are investigating the following KPIs and the recommendations will be used by 
 
 ## Dataset Structure
 This analysis used data representing customers, product categories, markets, and sales from 2020 to 2021.<br>
-**Customer Data** - Contains customer-related information such as customer names, customer codes and market regions.<br>
-**Product Data** - Includes product details such as product names, product categories, product codes, and divisions(computers/peripherals/storage).<br>
-**Market Data** - Contains market(country) and regional information.<br>
-**Sales Data** - Includes transactional sales records such as sales quantity, net sales amount, dates, customer codes, and product codes.
+
+**1. Customer Data** - Contains customer-related information such as customer names, customer codes and market regions.<br>
+**2. Product Data** - Includes product details such as product names, product categories, product codes, and divisions(computers/peripherals/storage).<br>
+**3. Market Data** - Contains market(country) and regional information.<br>
+**4. Sales Data** - Includes transactional sales records such as sales quantity, net sales amount, dates, customer codes, and product codes.
 
 ![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
 
