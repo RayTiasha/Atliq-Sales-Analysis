@@ -1,7 +1,7 @@
 # AtliQ Hardware's Sales Performance Analysis
 
 ## Project Background
-Atliq Hardware manufactures computers, peripherals, and storage products for markets across the APAC, EMEA, and NA regions. The Sales Director wants to understand underperforming markets based on the net sales from the previous two years and identify growth opportunities so that he can make informed decisions for the upcoming FY22.
+Atliq Hardware manufactures computers, peripherals, and storage products for markets across the APAC, EMEA, and NA regions. The Sales Director wants to understand underperforming markets based on the net sales from the previous two years and identify growth opportunities so that he can make informed decisions for the upcoming year 2022.
 
 ## Tool used
 Microsoft Excel
@@ -19,11 +19,11 @@ We are investigating the following KPIs and the recommendations will be used by 
 4. Analytical Calculations - Programmed custom DAX Measures (Power Pivot) to standardize business logic and automate the calculation of Net Sales and YoY Growth.
 
 ## Dataset Structure
-This analysis used data representing customers, product categories, market, and sales from 2020 to 2021.
-**Customer Data** - 
-**Product Data** - 
-**Market Data** - 
-**Sales Data** - 
+This analysis used data representing customers, product categories, markets, and sales from 2020 to 2021.
+**Customer Data** - Contains customer-related information such as customer names, customer codes and market regions.
+**Product Data** - Includes product details such as product names, product categories, product codes, and divisions(computers/peripherals/storage).
+**Market Data** - Contains market(country) and regional information.
+**Sales Data** - Includes transactional sales records such as sales quantity, net sales amount, dates, customer codes, and product codes.
 
 ![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
 
