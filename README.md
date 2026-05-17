@@ -1,7 +1,7 @@
 # AtliQ Hardware's Sales Performance Analysis
 
 ## Project Background
-The Sales Director at Atliq Hardware requires immediate visibility into key business metrics to support strategic decision-making and drive business growth. Currently, leadership team lacks centralized tracking for revenue, making it difficult to identify underperforming markets and pinpoint growth opportunities.
+Atliq Hardware manufactures computers, peripherals, and storage products for markets across the APAC, EMEA, and NA regions. The Sales Director wants to understand underperforming markets based on the net sales from the previous two years and identify growth opportunities so that he can make informed decisions for the upcoming FY22.
 
 ## Tool used
 Microsoft Excel
@@ -19,6 +19,11 @@ We are investigating the following KPIs and the recommendations will be used by 
 4. Analytical Calculations - Programmed custom DAX Measures (Power Pivot) to standardize business logic and automate the calculation of Net Sales and YoY Growth.
 
 ## Dataset Structure
+This analysis used data representing customers, product categories, market, and sales from 2020 to 2021.
+**Customer Data** - 
+**Product Data** - 
+**Market Data** - 
+**Sales Data** - 
 
 ![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
 
