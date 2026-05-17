@@ -76,4 +76,6 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 The original dataset is not included due to data privacy restrictions.
 However, the analysis methodology and insights are fully documented.
 
+---
+
 For more of my projects and data journey, visit my [Portfolio](https://raytiasha.github.io/Portfolio/).
