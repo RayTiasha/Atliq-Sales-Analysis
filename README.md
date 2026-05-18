@@ -9,7 +9,7 @@ Insights and recommendations are provided based on the following key areas:
 - Year-over-Year (YoY) Growth Percentage to isolate underperforming markets and target 2022 opportunities.
 
 ## Data Structure Overview
-This analysis used data representing customers, product categories, markets, and sales from 2020 to 2021.<br>
+This analysis used data representing customers, product categories, markets, and sales for 2020 and 2021.<br>
 
 **1. Customer Data** - Contains customer-related information such as customer names, customer codes and market regions.<br>
 **2. Product Data** - Includes product details such as product names, product categories, product codes, and divisions(computers/peripherals/storage).<br>
