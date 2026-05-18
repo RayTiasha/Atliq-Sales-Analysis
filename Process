@@ -1,4 +1,4 @@
---- Data Methodology ---
+<kbd>--- Data Methodology ---</kbd>
 
 1. Data Cleaning & ETL - Utilized Power Query to handle missing values, resolve nulls, and standardize inconsistent customer naming conventions.
 2. Data Modeling - Implemented a robust Star Schema by separating transactional data into Fact tables and used dedicated Dimension tables.
