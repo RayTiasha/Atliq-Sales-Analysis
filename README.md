@@ -32,7 +32,7 @@ Overall, the findings suggest that AtliQ’s sales growth can be driven by focus
 
 ## Tool used
 Microsoft Excel.<br>
-You can also check out the steps I followed for the analysis [here](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/Process.md).
+You can also check out the steps I followed for the analysis [here](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/Process.md)
 
 ## Business Insights
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
