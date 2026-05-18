@@ -1,7 +1,22 @@
 # AtliQ Hardware's Sales Performance Analysis
 
 ## Project Background
-Atliq Hardware manufactures computers, peripherals, and storage products for markets across the APAC, EMEA, and NA regions. The Sales Director wants to understand underperforming markets based on the net sales from the previous two years and identify growth opportunities so that he can make informed decisions for the upcoming year 2022.
+Atliq Hardware manufactures computers, peripherals, and storage products for markets across the APAC, EMEA, and NA regions. The Sales Director wants to understand underperforming markets based on net sales from the previous two years and identify growth opportunities so that he can make informed decisions about product allocation for the upcoming year, 2022.
+
+Insights and recommendations are provided based on the following key areas:
+- Net Sales (Gross Sales minus returns, allowances, and discounts).
+- Analysis Dimensions at Geographic Region and Product Category.
+- Year-over-Year (YoY) Growth Percentage to isolate underperforming markets and target 2022 opportunities.
+
+## Data Structure Overview
+This analysis used data representing customers, product categories, markets, and sales from 2020 to 2021.<br>
+
+**1. Customer Data** - Contains customer-related information such as customer names, customer codes and market regions.<br>
+**2. Product Data** - Includes product details such as product names, product categories, product codes, and divisions(computers/peripherals/storage).<br>
+**3. Market Data** - Contains market(country) and regional information.<br>
+**4. Sales Data** - Includes transactional sales records such as sales quantity, net sales amount, dates, customer codes, and product codes.
+
+![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
 
 ## Executive Summary
 
@@ -13,30 +28,16 @@ New product launches contributed nearly 30% of total net sales in 2021, demonstr
 
 Overall, the findings suggest that AtliQ’s sales growth can be driven by focusing on high-performing products and markets, strengthening the P&A ecosystem, scaling successful new launches, and optimizing or reducing investment in low-demand products to improve overall efficiency and revenue contribution.
 
+<img width="2000" height="1600" alt="Untitled design" src="https://github.com/user-attachments/assets/99c703ab-8baf-4b35-b611-ff3187e771d8" />
+
 ## Tool used
 Microsoft Excel
-
-## KPIs
-We are investigating the following KPIs and the recommendations will be used by sales team to better allocate product resources.
-- Net Sales (Gross Sales minus returns, allowances, and discounts).
-- Analysis Dimensions at Geographic Region and Product Category.
-- Year-over-Year (YoY) Growth Percentage to isolate underperforming markets and target 2022 opportunities.
-
-## Dataset Structure
-This analysis used data representing customers, product categories, markets, and sales from 2020 to 2021.<br>
-
-**1. Customer Data** - Contains customer-related information such as customer names, customer codes and market regions.<br>
-**2. Product Data** - Includes product details such as product names, product categories, product codes, and divisions(computers/peripherals/storage).<br>
-**3. Market Data** - Contains market(country) and regional information.<br>
-**4. Sales Data** - Includes transactional sales records such as sales quantity, net sales amount, dates, customer codes, and product codes.
 
 ## Data Methodology
 1. Data Cleaning & ETL - Utilized Power Query to handle missing values, resolve nulls, and standardize inconsistent customer naming conventions.
 2. Data Modeling - Implemented a robust Star Schema by separating transactional data into Fact tables and used dedicated Dimension tables.
 3. Time Intelligence - Established a dedicated Date dimension table to enable seamless, standardized time-comparison logic.
 4. Analytical Calculations - Programmed custom DAX Measures (Power Pivot) to standardize business logic and automate the calculation of Net Sales and YoY Growth.
-
-![AtliQ Hardware Star Schema](reports/Schema%20Diagram.png)
 
 ## Technical Implementation
 The following calculations were implemented in Power Pivot to standardize business logic:
@@ -67,10 +68,6 @@ The model revealed five critical pillars for AtliQ’s 2022 strategy:
 3. Maintain sufficient inventory levels for high-demand products such as the Master series to support continued sales performance and avoid stock shortages.
 4. Reassess the performance of low-demand products such as AQ HOME Allin1 (Gen 1 & 2) and consider promotional strategies or inventory optimization to reduce excess stock.
 5. Prioritize investment and expansion efforts in high-performing markets such as India and North America while exploring additional growth opportunities in other regions.
-
-## Report
-
-<img width="2000" height="1600" alt="Untitled design" src="https://github.com/user-attachments/assets/99c703ab-8baf-4b35-b611-ff3187e771d8" />
 
 ## Note
 The original dataset is not included due to data privacy restrictions.
