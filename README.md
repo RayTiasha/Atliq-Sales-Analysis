@@ -31,7 +31,7 @@ Overall, the findings suggest that AtliQ’s sales growth can be driven by focus
 <img width="2000" height="1600" alt="Untitled design" src="https://github.com/user-attachments/assets/99c703ab-8baf-4b35-b611-ff3187e771d8" />
 
 ## Tool used
-Microsoft Excel
+Microsoft Excel.<br>
 You can also check out the steps I followed for the analysis [here](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/Process)
 
 ## Business Insights
