@@ -32,27 +32,8 @@ Overall, the findings suggest that AtliQ’s sales growth can be driven by focus
 
 ## Tool used
 Microsoft Excel
+You can also check out the steps I followed for the analysis [here](https://github.com/RayTiasha/Atliq-Sales-Analysis/blob/main/Process)
 
-## Data Methodology
-1. Data Cleaning & ETL - Utilized Power Query to handle missing values, resolve nulls, and standardize inconsistent customer naming conventions.
-2. Data Modeling - Implemented a robust Star Schema by separating transactional data into Fact tables and used dedicated Dimension tables.
-3. Time Intelligence - Established a dedicated Date dimension table to enable seamless, standardized time-comparison logic.
-4. Analytical Calculations - Programmed custom DAX Measures (Power Pivot) to standardize business logic and automate the calculation of Net Sales and YoY Growth.
-
-## Technical Implementation
-The following calculations were implemented in Power Pivot to standardize business logic:
-
-1. Net Sales = SUM(fact_sales_monthly[net_sales_amount])
-2. Net Sales 2020 = CALCULATE([Net Sales],dim_date[FY]="2020")
-3. Net Sales 2021 = CALCULATE([Net Sales],dim_date[FY]="2021")
-4. Variance = DIVIDE([NetSales 21],[NetSales 20],0)
-```Code Snippet
-Net Sales 2021 = 
-CALCULATE(
-    [Net Sales],
-    dim_date[FY] = "2021"
-)
-```
 ## Business Insights
 The model revealed five critical pillars for AtliQ’s 2022 strategy:
 
