@@ -1,11 +1,11 @@
--- Data Methodology
+--- Data Methodology ---
 
 1. Data Cleaning & ETL - Utilized Power Query to handle missing values, resolve nulls, and standardize inconsistent customer naming conventions.
 2. Data Modeling - Implemented a robust Star Schema by separating transactional data into Fact tables and used dedicated Dimension tables.
 3. Time Intelligence - Established a dedicated Date dimension table to enable seamless, standardized time-comparison logic.
 4. Analytical Calculations - Programmed custom DAX Measures (Power Pivot) to standardize business logic and automate the calculation of Net Sales and YoY Growth.
 
--- Technical Implementation
+--- Technical Implementation ---
 
 The following calculations were implemented in Power Pivot to standardize business logic:
 
@@ -14,7 +14,7 @@ The following calculations were implemented in Power Pivot to standardize busine
 3. Net Sales 2021 = CALCULATE([Net Sales],dim_date[FY]="2021")
 4. Variance = DIVIDE([NetSales 21],[NetSales 20],0)
 
---- Code Snippet
+--- Code Snippet ---
 
 Net Sales 2021 = 
 CALCULATE(
