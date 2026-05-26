@@ -56,4 +56,4 @@ However, the analysis methodology and insights are fully documented.
 
 ---
 
-For more of my projects and data journey, visit my [Portfolio](https://raytiasha.github.io/Portfolio/).
+For more of my projects and data journey, visit my [Portfolio](https://github.com/raytiasha/My-Portfolio).
