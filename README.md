@@ -1,4 +1,4 @@
-# AtliQ Hardware's Sales Performance Analysis
+# AtliQ Hardware Sales Performance Analysis
 
 ## Project Background
 AtliQ Hardware manufactures computers, peripherals, and storage products for markets across the APAC, EMEA, and NA regions. The Sales Director wants to understand underperforming markets based on net sales from the previous two years and identify growth opportunities so that he can make informed decisions about product allocation for the upcoming year, 2022.
